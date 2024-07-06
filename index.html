@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/4b11705643.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <img class="logo" src="img/Component 1.png" alt="">
+            <div>
+                <p style="display: inline;" id="date-time"></p>
+                <p style="display: inline;" id="timing"></p>
+            </div>
+        </div>
+    </header>
+    <main class="wrapper">
+        <form class="form" id="form">
+            <input type="text" class="form__input" placeholder="Enter city name">
+            <button class="form__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <div class="weather-container none">
+            <div id="weather-gif">
+                <img src="" alt="" class="weather__img">
+            </div>
+            <div class="weather-container2">
+                <div class="weather__info">
+                    <div class="weather__temp">--°c</div>
+                    <div class="weather__city">City</div>
+                    <div class="main-type"></div>
+                </div>
+                <section class="weather__details">
+                    <div class="details">
+                        <img src="img/ui/humidity-2.svg" alt="" class="details__img">
+                        <div>
+                            <div class="details__value" id="humidity">--%</div>
+                            <div class="details__title">Humidity</div>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <img src="img/ui/wind-speed-7.svg" alt="" class="details__img">
+                        <div>
+                            <div class="details__value" id="speed">-- km/h</div>
+                            <div class="details__title">Wind speed</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- <footer class="footer"> -->
+    <!-- </footer> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
