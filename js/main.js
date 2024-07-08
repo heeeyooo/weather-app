@@ -3,7 +3,7 @@ const form = document.querySelector("#form");
 const input = document.querySelector(".form__input");
 const colors = document.querySelector(":root");
 
-switch (0) {
+switch (new Date().getHours()) {
   case 0:
     document.body.classList.add("h0");
     colors.style.setProperty("--main-color", "#fff");
